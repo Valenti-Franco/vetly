@@ -1,0 +1,36 @@
+// Ejemplos de requests usando la extension de VSCode: REST Client
+
+### Get users
+GET http://localhost:5555/api/Usuarios
+
+### Signup user
+POST http://localhost:5555/api/Usuario/RegistrarUsuario
+Content-Type: application/json
+
+{
+  "email": "mcgfullstackdeveloper@gmail.com",
+  "id_tipo_usuario": 2
+}
+
+### Login user
+POST http://localhost:5555/api/Usuario/LoginPerfilByEmail
+Content-Type: application/json
+
+{
+	"email": "mcgfullstackdeveloper@gmail.com"
+}
+
+### Update user type
+PATCH http://localhost:5555/api/Usuario/ActualizarUsuario
+Content-Type: application/json
+
+{
+  "email": "mcgfullstackdeveloper@gmail.com",
+  "idNewType": 3
+}
+
+### Get all categories
+GET http://localhost:5555/api/CategoriasProducto/getCategoriasProducto
+
+### Get categories by userType
+GET http://localhost:5555/api/CategoriasProducto/getCategoriasProducto/vet

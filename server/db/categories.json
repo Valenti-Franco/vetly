@@ -1,0 +1,32 @@
+{
+	"categories": [
+		{ "id": 1, "categoria_producto": "Literas", "icono": "🛏️" },
+		{ "id": 2, "categoria_producto": "Comida de perro", "icono": "🦴" },
+		{ "id": 3, "categoria_producto": "Comida de gato", "icono": "🐱" },
+		{ "id": 4, "categoria_producto": "Transportadoras", "icono": "🐾" },
+		{ "id": 5, "categoria_producto": "Juguetes", "icono": "🎾" },
+		{ "id": 6, "categoria_producto": "Peluquería", "icono": "💇‍♂️" },
+		{ "id": 7, "categoria_producto": "Vacunas", "icono": "💉" },
+		{ "id": 8, "categoria_producto": "Usuarios", "icono": "👥" },
+		{ "id": 9, "categoria_producto": "Bitácoras", "icono": "📜" },
+		{ "id": 10, "categoria_producto": "Errores de usuario", "icono": "❗" },
+		{ "id": 11, "categoria_producto": "Permisos de usuario", "icono": "🔒" },
+		{ "id": 12, "categoria_producto": "Backup", "icono": "🔐" },
+		{ "id": 13, "categoria_producto": "Agenda", "icono": "📅" },
+		{ "id": 14, "categoria_producto": "Veterinarias", "icono": "🏥" },
+		{ "id": 15, "categoria_producto": "Mascotas", "icono": "🐾" },
+		{ "id": 16, "categoria_producto": "Reportes de pago", "icono": "💰" },
+		{ "id": 17, "categoria_producto": "Profesionales", "icono": "👩‍⚕️" },
+		{ "id": 18, "categoria_producto": "Cobros", "icono": "💳" },
+		{ "id": 19, "categoria_producto": "Pagos", "icono": "💰" },
+		{ "id": 20, "categoria_producto": "Turno médico", "icono": "⏰" },
+		{ "id": 21, "categoria_producto": "Historia clínica", "icono": "📋" }
+	],
+	"userTypes": {
+		"invitado": [1, 2, 3, 4, 5, 6, 7],
+		"admin": [8, 9, 10, 11, 12],
+		"profesional": [13, 14, 15, 16],
+		"veterinaria": [17, 15, 18, 19],
+		"cliente": [15, 13, 20, 19, 21]
+	}
+}

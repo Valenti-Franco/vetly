@@ -1,0 +1,26 @@
+/* Agrega estilos para el botón hamburguesa */
+.hamburger-button {
+    display: none; /* Inicialmente oculto en pantallas más grandes */
+  }
+  
+  /* Mostrar el botón hamburguesa en dispositivos móviles */
+  @media (max-width: 768px) {
+    .hamburger-button {
+      display: block;
+    }
+  }
+/* Agrega estilos para categorías en dispositivos móviles */
+ 
+    .categories-list.open {
+      display: flex;
+    }
+
+    @media (max-width: 768px) {
+        .categories-list {
+          display: none;
+          flex-direction: column; /* Mostrar categorías una debajo de la otra */
+          align-items: flex-start; /* Alinear al principio de la columna */
+          width: 100%;
+        }
+  
+    }

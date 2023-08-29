@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "email": "ma@gmail.com",
+    "tipo_usuario": "PROFESIONAL",
+    "familias_asignadas": null,
+    "patentes_individuales_asignadas": null,
+    "patentes_por_familia_asignadas": null
+  },
+  {
+    "id": 2,
+    "email": "juan@gmail.com",
+    "tipo_usuario": "CLIENTE",
+    "familias_asignadas": null,
+    "patentes_individuales_asignadas": null,
+    "patentes_por_familia_asignadas": null
+  },
+  {
+    "id": 3,
+    "email": "pepe@gmail.com",
+    "tipo_usuario": "PROFESIONAL",
+    "familias_asignadas": null,
+    "patentes_individuales_asignadas": null,
+    "patentes_por_familia_asignadas": null
+  },
+  {
+    "id": 4,
+    "email": "pedro@gmail.com",
+    "tipo_usuario": "PROFESIONAL",
+    "familias_asignadas": null,
+    "patentes_individuales_asignadas": null,
+    "patentes_por_familia_asignadas": null
+  },
+  {
+    "id": 5,
+    "email": "pepe@gmail.com",
+    "tipo_usuario": "CLIENTE",
+    "familias_asignadas": null,
+    "patentes_individuales_asignadas": null,
+    "patentes_por_familia_asignadas": null
+  },
+  {
+    "id": 6,
+    "email": "mcgfullstackdeveloper@gmail.com",
+    "tipo_usuario": "CLIENTE",
+    "familias_asignadas": null,
+    "patentes_individuales_asignadas": null,
+    "patentes_por_familia_asignadas": null
+  },
+  {
+    "id": 7,
+    "email": "mcgfullstackdeveloper@gmail.com",
+    "tipo_usuario": "CLIENTE",
+    "familias_asignadas": null,
+    "patentes_individuales_asignadas": null,
+    "patentes_por_familia_asignadas": null
+  },
+  {
+    "id": 8,
+    "email": "mcgfullstackdeveloper@gmail.com",
+    "tipo_usuario": "CLIENTE",
+    "familias_asignadas": null,
+    "patentes_individuales_asignadas": null,
+    "patentes_por_familia_asignadas": null
+  },
+  {
+    "id": 9,
+    "email": "lo@gmail.com",
+    "tipo_usuario": "PROFESIONAL",
+    "familias_asignadas": null,
+    "patentes_individuales_asignadas": null,
+    "patentes_por_familia_asignadas": null
+  },
+  {
+    "id": 10,
+    "email": "valentifranco23@gmail.com",
+    "tipo_usuario": "PROFESIONAL",
+    "familias_asignadas": null,
+    "patentes_individuales_asignadas": null,
+    "patentes_por_familia_asignadas": null
+  },
+  {
+    "id": 11,
+    "email": "valentifranco23@gmail.com",
+    "tipo_usuario": "PROFESIONAL",
+    "familias_asignadas": null,
+    "patentes_individuales_asignadas": null,
+    "patentes_por_familia_asignadas": null
+  },
+  {
+    "id": 12,
+    "email": "valentifranco23@gmail.com",
+    "tipo_usuario": "PROFESIONAL",
+    "familias_asignadas": null,
+    "patentes_individuales_asignadas": null,
+    "patentes_por_familia_asignadas": null
+  },
+  {
+    "id": 13,
+    "email": "valentifranco23@gmail.com",
+    "tipo_usuario": "PROFESIONAL",
+    "familias_asignadas": null,
+    "patentes_individuales_asignadas": null,
+    "patentes_por_familia_asignadas": null
+  }
+]
