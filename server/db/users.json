@@ -102,5 +102,13 @@
     "familias_asignadas": null,
     "patentes_individuales_asignadas": null,
     "patentes_por_familia_asignadas": null
+  },
+  {
+    "id": 14,
+    "email": "valentifranco23@gmail.com",
+    "tipo_usuario": "PROFESIONAL",
+    "familias_asignadas": null,
+    "patentes_individuales_asignadas": null,
+    "patentes_por_familia_asignadas": null
   }
 ]
