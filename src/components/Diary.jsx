@@ -143,11 +143,17 @@ const Diary = () => {
       // console.log(
       //   startDatetime.isAfter(eventStart) || startDatetime.isSame(eventStart)
       // );
+      // console.log("start", start);
+      // console.log("end", end);
+      // console.log("eventStart", eventStart);
+      // console.log("eventEnd", eventEnd);
+
       return (
         ((start.isAfter(eventStart) || start.isSame(eventStart)) &&
           start.isBefore(eventEnd)) ||
         (end.isAfter(eventStart) &&
-          (end.isBefore(eventEnd) || end.isSame(eventEnd)))
+          (end.isBefore(eventEnd) || end.isSame(eventEnd))) ||
+        (start.isBefore(eventStart) && end.isAfter(eventEnd))
       );
     });
 
@@ -200,12 +206,16 @@ const Diary = () => {
       // console.log(
       //   startDatetime.isAfter(eventStart) || startDatetime.isSame(eventStart)
       // );
+      // console.log("start", start);
+      // console.log("end", end);
+      // console.log("eventStart", eventStart);
+      // console.log("eventEnd", eventEnd);
       return (
-        ((startDatetime.isAfter(eventStart) ||
-          startDatetime.isSame(eventStart)) &&
-          startDatetime.isBefore(eventEnd)) ||
-        (endDatetime.isAfter(eventStart) &&
-          (endDatetime.isBefore(eventEnd) || endDatetime.isSame(eventEnd)))
+        ((start.isAfter(eventStart) || start.isSame(eventStart)) &&
+          start.isBefore(eventEnd)) ||
+        (end.isAfter(eventStart) &&
+          (end.isBefore(eventEnd) || end.isSame(eventEnd))) ||
+        (start.isBefore(eventStart) && end.isAfter(eventEnd))
       );
     });
 
